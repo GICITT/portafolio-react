@@ -4,16 +4,11 @@ import logo from "../../assets/logo-sn.png";
 
 export default function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About me</h1>
-        <img src={logo} alt="" height="170px" width="190" />
       </div>
       <div className="about-section">
-        <div className="about-left">
-          {" "}
-          <img />
-        </div>
         <div className="about-right">
           {" "}
           <div className="about-para">
@@ -50,20 +45,17 @@ export default function About() {
       </div>
       <div className="about-achivements">
         <div className="about-achivement">
+          {" "}
           <h1>2+</h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achivement">
+          {" "}
           <h1>2+</h1>
           <p>PROYECTS COMPLETED</p>
         </div>
         <hr />
-        <div className="about-achivement">
-          {" "}
-          <h1>2+</h1>
-          <p>HAPPY CLIENTS</p>
-        </div>
       </div>
     </div>
   );

@@ -29,6 +29,7 @@
   text-align: center;
   font-size: 24px;
   line-height: 40px;
+  text-align: justify;
 }
 
 .hero-actions {
@@ -60,4 +61,45 @@
 
 .hero-resum:hover {
   border: 2px solid #b415ff;
+}
+
+@media (max-width: 768px) {
+  .img-Profile {
+    margin-top: 120px;
+    border-radius: 10%;
+    width: 260px;
+  }
+  .hero h1 {
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;
+    font-size: 50px;
+  }
+  .hero p {
+    margin: 20px 5px;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+  }
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .hero-connect {
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
+    cursor: pointer;
+  }.hero-resum {
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
 }

@@ -1,11 +1,11 @@
 import "./Hero.css";
 import imgProfile from "../../assets/imgProfile.jpg";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import React from "react";
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <img
         src={imgProfile}
         alt="imgProfile"
@@ -22,8 +22,14 @@ export default function Hero() {
         Salsa a la Italiana. Opción: Tradicional o Sin Sal Agregada
       </p>
       <div className="hero-actions">
-        <div className="hero-connect">Connect Whit me</div>
-        <div className="hero-resum">My resume</div>
+        <AnchorLink className="anchor-link" offset={50} href="#contact">
+          {" "}
+          <div className="hero-connect">Connect Whit me</div>
+        </AnchorLink>
+        <AnchorLink className="anchor-link" offset={50} href="#about">
+          {" "}
+          <div className="hero-resum">My resume</div>{" "}
+        </AnchorLink>
       </div>
     </div>
   );
