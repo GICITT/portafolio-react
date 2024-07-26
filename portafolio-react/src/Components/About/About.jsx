@@ -13,18 +13,17 @@ export default function About() {
           {" "}
           <div className="about-para">
             <p>
-              Tengo casi 3 años como desarrollador Full Stack con
-              especialización en backend utilizando Java y Spring Boot, y
-              frontend con Angular. He trabajado con bases de datos relacionales
-              SQL, y he participado en proyectos que van desde pequeñas
-              aplicaciones hasta sistemas empresariales complejos.
+              Tengo casi 3 años de experiencia como desarrolladora Front-end,
+              especializada en JavaScript y desarrollo front-end. He trabajado
+              en proyectos personales y colaborativos, desde pequeñas
+              aplicaciones hasta sistemas más complejos.
             </p>
             <p>
               Me apasiona la tecnología y estoy constantemente aprendiendo y
               mejorando mis habilidades. Poseo adaptabilidad, capacidad de
               resolución de problemas y un fuerte compromiso con los proyectos
-              en los que trabajo. Estoy convencido que puedo enfrentar cualquier
-              desafío que se presente.
+              en los que trabajo. Concidero que tengo las habilidades para
+              convertirme en una desarrolladora front-end altamente competent.
             </p>
           </div>
           <div className="about-skills">
@@ -52,7 +51,7 @@ export default function About() {
         <hr />
         <div className="about-achivement">
           {" "}
-          <h1>2+</h1>
+          <h1>3+</h1>
           <p>PROYECTS COMPLETED</p>
         </div>
         <hr />

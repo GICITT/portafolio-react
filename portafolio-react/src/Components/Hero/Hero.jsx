@@ -10,16 +10,17 @@ export default function Hero() {
         src={imgProfile}
         alt="imgProfile"
         className="img-Profile"
-        style={{ width: "250px", height: "auto" }}
+        style={{ width: "250px", height: "auto", marginBottom: "25px" }}
       />{" "}
       <h1>
         {" "}
         <span>Im Gisela Cittadini,</span> developer based in Buenos Aires{" "}
       </h1>
       <p>
-        POLLO DE LAS SIERRAS, ARVEJAS , PAPAS CUBO Y SALSA A LA ITALIANA. Pollo
-        de Las Sierras con arvejas frescas, papas en cubo con una deliciosa
-        Salsa a la Italiana. Opción: Tradicional o Sin Sal Agregada
+        Hola! Mi nombre es Gisela y soy Front End Developer en busca de una
+        oportunidad, hace dos años me senti atraida por el mundo de la
+        informatica y la progamación por lo cual decidi darle giro a mi
+        profecion y cambiar de carrera.
       </p>
       <div className="hero-actions">
         <AnchorLink className="anchor-link" offset={50} href="#contact">

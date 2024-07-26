@@ -38,12 +38,7 @@ export default function Contact() {
       </div>
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Let's talk</h1>
-          <p>
-            I'm currently avaliable to take on new proyects, so feel free to
-            send me a mesasange abotui anything that you want me to work on. you
-            cantact anytime
-          </p>
+          <h1>Contáctam</h1>
           <div className="contact-details">
             <div className="contact-detail">
               <MdOutlineMail className="contact-img" />{" "}

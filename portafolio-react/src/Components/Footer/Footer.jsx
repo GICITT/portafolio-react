@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="footer-top-left">
           <img src={logo} alt="" height="150px" width="170" />
           <p>
-            I am fronte developer from Buenos Aires, width almost 3 years of
-            experience
+            Desarolladora con 2 años de experiencia en busqueda de nuevos
+            desafios.
           </p>
         </div>
         <div className="footer-top-right">

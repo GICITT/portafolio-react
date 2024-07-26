@@ -30,6 +30,8 @@
   font-size: 24px;
   line-height: 40px;
   text-align: justify;
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .hero-actions {
@@ -96,7 +98,8 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
     cursor: pointer;
-  }.hero-resum {
+  }
+  .hero-resum {
     padding: 20px 30px;
     border-radius: 50px;
     border: 2px solid #fff;
